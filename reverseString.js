@@ -1,11 +1,25 @@
 // Reverse String 
-function reverseString(str){
-    var strArr = str.split('');
-    console.log(strArr)
-    var reverseStrArr = strArr.reverse();
-    console.log(reverseStrArr)
-    var reversStr = reverseStrArr.join('')
-    return reversStr
-}
+// function reverseString(str){
+//     var strArr = str.split('');
+//     console.log(strArr)
+//     var reverseStrArr = strArr.reverse();
+//     console.log(reverseStrArr)
+//     var reversStr = reverseStrArr.join('')
+//     return reversStr
+// }
 
-console.log(reverseString('ravi'))
+// console.log(reverseString('ravi'))
+
+// function reverseString(str){
+//     return str.split('').reverse().join('')
+// }
+// console.log(reverseString('ravi'))
+
+function reverseString(str){
+    var final = '';
+    for( var i=str.length-1;i>=0;i--){
+        final += str[i];
+    }
+    return final;
+}
+console.log(reverseString('ravi shankar'))
