@@ -33,25 +33,25 @@
 // const result = sumOfTwoNoIsZero(arr)
 // console.log(result)
 
-const array=[3,5,2,6,-6,-3,-4,-2];
-let arr =array.sort()//here we are first short the array
-console.log(arr)//here we get the shorted array
+// const array=[3,5,2,6,-6,-3,-4,-2];
+// let arr =array.sort()//here we are first short the array
+// console.log(arr)//here we get the shorted array
 // [  -2, -3, -4, -6,  2,  3,  5,  6]
-function sumOfTwoNoIsZero(arr){
-    var left=0;
-    var rigth = arr.length-1;
-    while(left < rigth){
-        sum=arr[left]+arr[rigth];
-        if(sum===0){
-            return [arr[left],arr[rigth]]
-        }else if(sum>0){
-            rigth--
-        }else
-        {
-            left++
-        }
-    }
-}
-const result = sumOfTwoNoIsZero(arr)
-console.log(result)
+// function sumOfTwoNoIsZero(arr){
+//     var left=0;
+//     var rigth = arr.length-1;
+//     while(left < rigth){
+//         sum=arr[left]+arr[rigth];
+//         if(sum===0){
+//             return [arr[left],arr[rigth]]
+//         }else if(sum>0){
+//             rigth--
+//         }else
+//         {
+//             left++
+//         }
+//     }
+// }
+// const result = sumOfTwoNoIsZero(arr)
+// console.log(result)
 
