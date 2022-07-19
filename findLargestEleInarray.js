@@ -1,12 +1,12 @@
-// // Find the largest element in an given array
-// const arr1=[23,54,33,22,56,78,46,85,96];
-// var largest = arr1[0];
-// for(var i=0;i<arr1.length;i++){
-//     if(arr1[i]>largest){
-//         largest=arr1[i]
-//     }
-// }
-// console.log(largest)
+// Find the largest element in an given array
+const arr1=[23,54,33,22,56,78,46,85,96];
+var largest = arr1[0];
+for(var i=0;i<arr1.length;i++){
+    if(arr1[i]>largest){
+        largest=arr1[i]
+    }
+}
+console.log(largest)
 
 //find the largest no in an array by creating function
 // const array=[21,35,63,43,66,22,67];
