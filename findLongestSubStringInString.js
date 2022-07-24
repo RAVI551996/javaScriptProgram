@@ -1,5 +1,5 @@
 // find the longest word in the string.
-
+// find the longest subString in a string.
 const str = "Hellp! This is Ravi Shankar Mehta";
 
 const longestStr=(str)=>{
