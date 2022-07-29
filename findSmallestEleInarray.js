@@ -1,12 +1,12 @@
-// //find the smallest element in an given array
-// const arr2=[23,54,33,22,56,78,46,85,96];
-// var smallest = arr2[0];
-// for(var i=0;i<arr2.length;i++){
-//     if(arr2[i]<smallest){
-//         smallest=arr2[i]
-//     }
-// }
-// console.log(smallest)
+//find the smallest element in an given array
+const arr2=[23,54,33,22,56,78,46,85,96];
+var smallest = arr2[0];
+for(var i=0;i<arr2.length;i++){
+    if(arr2[i]<smallest){
+        smallest=arr2[i]
+    }
+}
+console.log(smallest)
 
 // //using Math.min()function
 // const array2=[23,54,33,22,56,78,46,85,96];

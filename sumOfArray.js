@@ -1,4 +1,4 @@
-const ar=[338, 65, 713, 595, 428, 610, 728, 573, 871, 868]
+const ar=[1,2,3,4,5,6]
 
 function sumofarr(ar){
     var sum =0 ;
@@ -6,7 +6,7 @@ function sumofarr(ar){
         sum = sum+ar[i]
        
       }
-      console.log(sum)
+       console.log(sum)
 }
 sumofarr(ar)  
 
