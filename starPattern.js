@@ -6,19 +6,19 @@
 // ****
 // *****
 
-// let n=5;
-// var str='';
-// for(var i=0;i<=n;i++){
-//     for(var j=0;j<=n;j++){
-//         if(j<=i){
-//             str = str+'*'
-//         }else{
-//             str = str+" "
-//         }
-//     }
-//     str = str+"\n"
-// }
-// console.log(str)
+let n=5;
+var str='';
+for(var i=0;i<=n;i++){
+    for(var j=0;j<=n;j++){
+        if(j<=i){
+            str = str+'*'
+        }else{
+            str = str+" "
+        }
+    }
+    str = str+"\n"
+}
+console.log(str)
 
 
 // Right Tringale patten
