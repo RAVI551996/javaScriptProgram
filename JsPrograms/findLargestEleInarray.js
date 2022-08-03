@@ -6,7 +6,7 @@ for(var i=0;i<arr1.length;i++){
         largest=arr1[i]
     }
 }
-console.log(largest)
+console.log(arr1)
 
 //find the largest no in an array by creating function
 // const array=[21,35,63,43,66,22,67];
